@@ -1,12 +1,14 @@
 'use strict';
 
-var gulp = require('gulp');
+const gulp = require('gulp');
 const themeKit = require('@shopify/themekit');
-var sass = require('gulp-sass')(require('sass'));
+const sass = require('gulp-sass')(require('sass'));
+const clean = require('gulp-clean-css');
 
 gulp.task('sass', function () {
     return gulp.src('scss/global.scss')
         .pipe(sass())
+        .pipe(clean({ compatibility: 'ie11' }))
         .pipe(gulp.dest('assets'))
 });
 

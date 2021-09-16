@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/GabeValdivia/shopify-test-theme#readme",
   "devDependencies": {
+    "gulp-clean-css": "^4.3.0",
     "gulp-sass": "^5.0.0",
     "sass": "^1.41.0"
   },
