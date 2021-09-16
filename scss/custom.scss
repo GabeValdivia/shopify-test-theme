@@ -1,10 +1,7 @@
-$color-red: red;
-$color-green: green;
-$color-tomato: tomato;
-$color-blue: blue;
-
-.site-header, 
-.site-header__mobile-nav,
-body {
-    // background-color: $color-blue;
+.grid__item.medium-up--one-whole {
+    .article__grid-image-wrapper,
+    .article__grid-image {
+        max-height: unset!important;
+        max-width: unset!important;
+    }
 }
