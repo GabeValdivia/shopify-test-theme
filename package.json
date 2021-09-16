@@ -22,6 +22,7 @@
   },
   "dependencies": {
     "@shopify/themekit": "^1.1.9",
+    "del": "^6.0.0",
     "gulp": "^4.0.2",
     "gulp-cli": "^2.3.0"
   }
